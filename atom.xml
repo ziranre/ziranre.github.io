@@ -126,9 +126,9 @@
     <category term="hexo" scheme="http://example.com/categories/hexo/"/>
     
     
-    <category term="图片" scheme="http://example.com/tags/%E5%9B%BE%E7%89%87/"/>
-    
     <category term="hexo" scheme="http://example.com/tags/hexo/"/>
+    
+    <category term="图片" scheme="http://example.com/tags/%E5%9B%BE%E7%89%87/"/>
     
     <category term="bug" scheme="http://example.com/tags/bug/"/>
     
@@ -151,9 +151,9 @@
     <category term="hexo" scheme="http://example.com/categories/hexo/"/>
     
     
-    <category term="hexo博客" scheme="http://example.com/tags/hexo%E5%8D%9A%E5%AE%A2/"/>
-    
     <category term="图片" scheme="http://example.com/tags/%E5%9B%BE%E7%89%87/"/>
+    
+    <category term="hexo博客" scheme="http://example.com/tags/hexo%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
