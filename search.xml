@@ -4,12 +4,140 @@
   
     
     <entry>
+      <title>委外订单流程</title>
+      <link href="/2024/08/14/%E5%A7%94%E5%A4%96%E8%AE%A2%E5%8D%95%E6%B5%81%E7%A8%8B/"/>
+      <url>/2024/08/14/%E5%A7%94%E5%A4%96%E8%AE%A2%E5%8D%95%E6%B5%81%E7%A8%8B/</url>
+      
+        <content type="html"><![CDATA[<h1 id="委外到入库流程"><a href="#委外到入库流程" class="headerlink" title="委外到入库流程"></a>委外到入库流程</h1><h3 id="金蝶ERP创建委外订单"><a href="#金蝶ERP创建委外订单" class="headerlink" title="金蝶ERP创建委外订单"></a>金蝶ERP创建委外订单</h3><ul><li>输入物料编码、计划时间、数量等数据，提交审核</li><li>同步生成委外用料清单</li><li><strong>选中物料后</strong>手动下推<strong>采购订单</strong>和<strong>委外领料单</strong></li><li><strong>注：不用手动下推收料通知单</strong></li></ul><h3 id="金蝶ERP委外领料单"><a href="#金蝶ERP委外领料单" class="headerlink" title="金蝶ERP委外领料单"></a>金蝶ERP委外领料单</h3><ul><li>进行提交审核</li><li>确认库存量是否足够</li></ul><h3 id="金蝶ERP采购订单"><a href="#金蝶ERP采购订单" class="headerlink" title="金蝶ERP采购订单"></a>金蝶ERP采购订单</h3><ul><li>进行提交审核</li><li><strong>注：不用手动下推收料通知单</strong></li></ul><h3 id="MES仓库管理–供应商管理–供应商生成物料条码"><a href="#MES仓库管理–供应商管理–供应商生成物料条码" class="headerlink" title="MES仓库管理–供应商管理–供应商生成物料条码"></a>MES仓库管理–供应商管理–供应商生成物料条码</h3><ul><li>选择采购单号，输入数量进行物料唯一码打印</li><li>切换物料编码进行多次打印</li></ul><h3 id="MES仓库管理–供应商管理–生成送货单"><a href="#MES仓库管理–供应商管理–生成送货单" class="headerlink" title="MES仓库管理–供应商管理–生成送货单"></a>MES仓库管理–供应商管理–生成送货单</h3><ul><li>选择采购订单，以此扫描打印的物料唯一码</li><li><strong>如采购订单流程处</strong>：在报告文件上传处<strong>必须上传文件</strong>，文件格式为：<strong>采购单号-数字</strong>，如：LCD240800004-1.png **如果未上传IQC查询不到送货单</li></ul><h3 id="PDA仓库管理–仓库收料"><a href="#PDA仓库管理–仓库收料" class="headerlink" title="PDA仓库管理–仓库收料"></a>PDA仓库管理–仓库收料</h3><ul><li>扫描送货单选择单据后，扫描仓库下面的<strong>库位条码</strong>然后再扫描物料唯一条码</li><li>扫描完成后点击收料</li><li>提交后会在金蝶ERP<strong>自动创建收料通知单</strong></li></ul><h3 id="MES品质管理–检验报告管理–IQC来料检查"><a href="#MES品质管理–检验报告管理–IQC来料检查" class="headerlink" title="MES品质管理–检验报告管理–IQC来料检查"></a>MES品质管理–检验报告管理–IQC来料检查</h3><ul><li>扫描采购订单后勾选物料进行IQC接收，接收后进行来料检验</li><li>检验合格后审核提交</li></ul><h3 id="PDA仓库管理–物料入库"><a href="#PDA仓库管理–物料入库" class="headerlink" title="PDA仓库管理–物料入库"></a>PDA仓库管理–物料入库</h3><ul><li>扫描仓库下面的库位条码，然后再扫描物料唯一条码</li><li>完成后点击物料条码入库</li></ul><h3 id="入库完成后可以在金蝶即时库存查看库存"><a href="#入库完成后可以在金蝶即时库存查看库存" class="headerlink" title="入库完成后可以在金蝶即时库存查看库存"></a>入库完成后可以在金蝶<em><strong>即时库存</strong></em>查看库存</h3><ul><li>筛选入库的物料编码查询选择库的仓库，点击库存量查看详细</li><li><img src="399f8e439fb7926ee916a8c8aab1203d.png" alt="截图" style="zoom:50%;" /></li><li>能查询到入库数量就属于MES推送ERP完成</li></ul><h3 id="流程图"><a href="#流程图" class="headerlink" title="流程图"></a>流程图</h3><p><img src="/2024/08/14/%E5%A7%94%E5%A4%96%E8%AE%A2%E5%8D%95%E6%B5%81%E7%A8%8B/baedd24d55d20844b980052f41acd074.png" alt="截图"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> MES </category>
+          
+          <category> ERP </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> MES </tag>
+            
+            <tag> ERP </tag>
+            
+            <tag> 委外订单流程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>生产操作流程</title>
+      <link href="/2024/08/14/%E7%94%9F%E4%BA%A7%E6%93%8D%E4%BD%9C%E6%B5%81%E7%A8%8B/"/>
+      <url>/2024/08/14/%E7%94%9F%E4%BA%A7%E6%93%8D%E4%BD%9C%E6%B5%81%E7%A8%8B/</url>
+      
+        <content type="html"><![CDATA[<h1 id="生产创建工单料上料到入库"><a href="#生产创建工单料上料到入库" class="headerlink" title="生产创建工单料上料到入库"></a>生产创建工单料上料到入库</h1><h3 id="金蝶ERP生产订单列表"><a href="#金蝶ERP生产订单列表" class="headerlink" title="金蝶ERP生产订单列表"></a>金蝶ERP生产订单列表</h3><ul><li>新建生产订单输入产品、车间、生产数量等信息后</li><li>提交审核，在业务查询–》用料订单查询（<strong>查看BOM用料</strong>），提交审核</li><li>行执行–》<strong>制作至开工</strong></li></ul><h3 id="MES生产管理–工单维护–工单列表"><a href="#MES生产管理–工单维护–工单列表" class="headerlink" title="MES生产管理–工单维护–工单列表"></a>MES生产管理–工单维护–工单列表</h3><ul><li><p>筛选查看该工单的状态是否正确（可排产，如果是关闭就<strong>制作至开工</strong>）</p></li><li><p>工艺路线是否正确（不正确需要进行工艺绑定）</p></li></ul><h3 id="MES生产管理–标准排产–标准排产列表"><a href="#MES生产管理–标准排产–标准排产列表" class="headerlink" title="MES生产管理–标准排产–标准排产列表"></a>MES生产管理–标准排产–标准排产列表</h3><ul><li><p>如果查询不到排产号（没在金蝶生产订单行执行–》<strong>制作至开工</strong>）</p></li><li><p>勾选排产号，进行其他排期，选择对应的产线进行保存</p></li><li><p>排产确认后，进行领料单生成</p></li></ul><h3 id="MES仓库管理–发料管理–领料申请"><a href="#MES仓库管理–发料管理–领料申请" class="headerlink" title="MES仓库管理–发料管理–领料申请"></a>MES仓库管理–发料管理–领料申请</h3><ul><li>查询领料单信息</li></ul><h3 id="MES仓库管理–物料管理–历史物料（非标准）"><a href="#MES仓库管理–物料管理–历史物料（非标准）" class="headerlink" title="MES仓库管理–物料管理–历史物料（非标准）"></a>MES仓库管理–物料管理–历史物料（非标准）</h3><ul><li><p>物料不存在的时候进行物料初始化到系统</p></li><li><p>选择物料，输入打印物料数量和最小包装数量，选择仓库、库位</p></li><li><p>进行打印物料唯一码</p></li></ul><h3 id="金蝶ERP其他入库单（非标准）"><a href="#金蝶ERP其他入库单（非标准）" class="headerlink" title="金蝶ERP其他入库单（非标准）"></a>金蝶ERP其他入库单（非标准）</h3><ul><li><p>物料不存在的时候进行物料初始化到系统，<strong>和MES数据同步</strong>，否则<strong>扣料会出现负库存</strong></p></li><li><p>复制对应物料，填写相应的参数和MES创建相同的数量进行库存填充。提交审核</p></li></ul><h3 id="PDA仓库管理–仓库备料"><a href="#PDA仓库管理–仓库备料" class="headerlink" title="PDA仓库管理–仓库备料"></a>PDA仓库管理–仓库备料</h3><ul><li>扫描领料单后，扫描物料唯一码</li><li>确认备料，弹窗提示完成</li></ul><h3 id="PDA生产管理–手插上料"><a href="#PDA生产管理–手插上料" class="headerlink" title="PDA生产管理–手插上料"></a>PDA生产管理–手插上料</h3><ul><li><p>选择工单，工序，对应机台</p></li><li><p>下一步扫描物料唯一码，完成上料</p></li><li><p><strong>注</strong>：筛选不出来工单，查看工单状态是否是<strong>释放</strong></p></li></ul><h3 id="MES数据采集–选择对应的工序、机台"><a href="#MES数据采集–选择对应的工序、机台" class="headerlink" title="MES数据采集–选择对应的工序、机台"></a>MES数据采集–选择对应的工序、机台</h3><ul><li><p>如：冲压工序。选择工单，扫描物料唯一码，点击打印。</p></li><li><p>注：如果数量大于工单数量可以点击尾数箱尾数，然后修改数量，再进行打印。</p></li><li><p>注：<strong>数据采集界面不正确</strong>，修改路径：系统管理–》客户端配置–》站位模板配置</p></li><li><p><img src="/2024/08/14/%E7%94%9F%E4%BA%A7%E6%93%8D%E4%BD%9C%E6%B5%81%E7%A8%8B/e015e262263b5a641124cedbe5d7b9a2.jpg" alt="1723520140307.jpg"></p></li><li><p>顺着工艺路线的下一步工序继续切换到对应的产线和工序，然后填写对应的内容后进行打印</p></li><li><p><img src="/2024/08/14/%E7%94%9F%E4%BA%A7%E6%93%8D%E4%BD%9C%E6%B5%81%E7%A8%8B/3d1dbfbf9256626c51c3b92d23dee5a0.png" alt="截图"></p></li><li><p>条码打印完成后会进行提示<img src="/2024/08/14/%E7%94%9F%E4%BA%A7%E6%93%8D%E4%BD%9C%E6%B5%81%E7%A8%8B/717cf3bfd3cc946575f63a201a93405c.png" alt="截图"></p></li></ul><h3 id="PDA生产管理–半成品-成品入库"><a href="#PDA生产管理–半成品-成品入库" class="headerlink" title="PDA生产管理–半成品&#x2F;成品入库"></a>PDA生产管理–半成品&#x2F;成品入库</h3><ul><li>完成生产后进行入库操作</li><li>扫描产品唯一码后，点击新建单据，创建入库单据</li><li>扫描产品唯一码后，扫描入库库位，点击确认入库</li></ul><h3 id="全部入库完成后查看记录"><a href="#全部入库完成后查看记录" class="headerlink" title="全部入库完成后查看记录"></a>全部入库完成后查看记录</h3><ul><li><p>MES仓库管理–》成品出入库–》成品入库列表</p></li><li><p><img src="/2024/08/14/%E7%94%9F%E4%BA%A7%E6%93%8D%E4%BD%9C%E6%B5%81%E7%A8%8B/85b22a8d1b914eefbb07eab8fcc35bc8.png" alt="截图"></p></li><li><p>金蝶生产入库单列表查看是否和MES的入库单相同</p></li><li><p><img src="/2024/08/14/%E7%94%9F%E4%BA%A7%E6%93%8D%E4%BD%9C%E6%B5%81%E7%A8%8B/ae5bf661bda5e1d6324a799436ecc2b1.png" alt="截图"></p></li></ul><h3 id="流程图"><a href="#流程图" class="headerlink" title="流程图"></a>流程图</h3><p><img src="/2024/08/14/%E7%94%9F%E4%BA%A7%E6%93%8D%E4%BD%9C%E6%B5%81%E7%A8%8B/82f4eb66c77baf1cde94141545cbd4c7.png" alt="截图"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> MES </category>
+          
+          <category> ERP </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> MES </tag>
+            
+            <tag> ERP </tag>
+            
+            <tag> 生产操作流程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>采购订单流程</title>
+      <link href="/2024/08/14/%E9%87%87%E8%B4%AD%E8%AE%A2%E5%8D%95%E6%B5%81%E7%A8%8B/"/>
+      <url>/2024/08/14/%E9%87%87%E8%B4%AD%E8%AE%A2%E5%8D%95%E6%B5%81%E7%A8%8B/</url>
+      
+        <content type="html"><![CDATA[<h1 id="采购到入库整体流程"><a href="#采购到入库整体流程" class="headerlink" title="采购到入库整体流程"></a>采购到入库整体流程</h1><h3 id="金蝶ERP创建采购申请单"><a href="#金蝶ERP创建采购申请单" class="headerlink" title="金蝶ERP创建采购申请单"></a>金蝶ERP创建采购申请单</h3><ul><li>采购申请单创建选择对应物料，数量，采购组织等必填数据</li></ul><h3 id="金蝶ERP采购申请单界面下推创建采购订单"><a href="#金蝶ERP采购申请单界面下推创建采购订单" class="headerlink" title="金蝶ERP采购申请单界面下推创建采购订单"></a>金蝶ERP采购申请单界面下推创建采购订单</h3><ul><li>采购订单选择供应商后注意单价和含税单价是否带出</li><li>如果没带出对应数据，查看** 采购价目表** 是否有这个物料对应的供应商（没有就创建），日期是否过期，状态是否审核</li><li><strong>未审核的话，MES查询不到采购订单</strong></li></ul><h3 id="MES仓库管理–供应商管理–供应商生成物料唯一条码"><a href="#MES仓库管理–供应商管理–供应商生成物料唯一条码" class="headerlink" title="MES仓库管理–供应商管理–供应商生成物料唯一条码"></a>MES仓库管理–供应商管理–供应商生成物料唯一条码</h3><ul><li>选择采购订单后输入最小包装数量，模拟供应商打印物料唯一条码</li><li>如果一个采购订单有多个物料，可以在物料编码处进行切换</li></ul><h3 id="MES仓库管理–供应商管理–生成送货单"><a href="#MES仓库管理–供应商管理–生成送货单" class="headerlink" title="MES仓库管理–供应商管理–生成送货单"></a>MES仓库管理–供应商管理–生成送货单</h3><ul><li>输入采购订单后，依次扫描打印的物料唯一条码</li><li>在报告文件上传处<strong>必须上传文件</strong>，文件格式为：<strong>采购单号-数字</strong>，如：LCD240800004-1.png <strong>如果未上传IQC查询不到送货单</strong></li></ul><h3 id="PDA仓库管理–仓库收料"><a href="#PDA仓库管理–仓库收料" class="headerlink" title="PDA仓库管理–仓库收料"></a>PDA仓库管理–仓库收料</h3><ul><li>扫描送货单选择单据后，扫描仓库下面的<strong>库位条码</strong>然后再扫描物料唯一条码</li><li>扫描完成后点击收料</li></ul><h3 id="MES品质管理–检验报告管理–IQC来料检查"><a href="#MES品质管理–检验报告管理–IQC来料检查" class="headerlink" title="MES品质管理–检验报告管理–IQC来料检查"></a>MES品质管理–检验报告管理–IQC来料检查</h3><ul><li>扫描采购订单后勾选物料进行IQC接收，接收后进行来料检验</li><li>检验合格后审核提交</li></ul><h3 id="PDA仓库管理–物料入库"><a href="#PDA仓库管理–物料入库" class="headerlink" title="PDA仓库管理–物料入库"></a>PDA仓库管理–物料入库</h3><ul><li>扫描仓库下面的库位条码，然后再扫描物料唯一条码</li><li>完成后点击物料条码入库</li></ul><h3 id="入库完成后可以在金蝶即时库存查看库存"><a href="#入库完成后可以在金蝶即时库存查看库存" class="headerlink" title="入库完成后可以在金蝶即时库存查看库存"></a>入库完成后可以在金蝶<em><strong>即时库存</strong></em>查看库存</h3><ul><li><p>筛选入库的物料编码查询选择库的仓库，点击库存量查看详细</p></li><li><img src="399f8e439fb7926ee916a8c8aab1203d.png" alt="截图" style="zoom:50%;" /></li><li><p>能查询到入库数量就属于MES推送ERP完成</p></li></ul><h3 id="流程图"><a href="#流程图" class="headerlink" title="流程图"></a>流程图</h3><p><img src="/2024/08/14/%E9%87%87%E8%B4%AD%E8%AE%A2%E5%8D%95%E6%B5%81%E7%A8%8B/877cd3e862d518898270a422efdcd44e.png" alt="截图"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> MES </category>
+          
+          <category> ERP </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> MES </tag>
+            
+            <tag> ERP </tag>
+            
+            <tag> 采购订单流程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>hexo插入本地图片时遇到的坑</title>
+      <link href="/2024/08/14/hexo%E6%8F%92%E5%85%A5%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87%E6%97%B6%E9%81%87%E5%88%B0%E7%9A%84%E5%9D%91/"/>
+      <url>/2024/08/14/hexo%E6%8F%92%E5%85%A5%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87%E6%97%B6%E9%81%87%E5%88%B0%E7%9A%84%E5%9D%91/</url>
+      
+        <content type="html"><![CDATA[<h3 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h3><p>最开始是打算把本地图片插入到hexo博客中的，使用了一个图片路径转换的插件<code>hexo-asset-image</code></p><p>Hexo 配置文件 <code>_config.yml</code> 里面也进行了以下配置</p><blockquote><p>post_asset_folder: true</p></blockquote><p>这个功能实际上是Hexo官方文档中提到的资源文件夹功能：<strong>即当你使用 <code>hexo new 新文章</code> 命令生成一篇新文章时，不但会在 <code>\source\_posts</code> 目录下生成一个 <code>新文章.md</code> 文件，还会生成一个同名的文件夹，这个文件夹下面可以存放该文章的所有资源。</strong></p><p>有了上面的配置，Hexo 在 public 目录下生成 html 文件时，会把文章对应的目录下的图片等附件复制过去。</p><p>完成以上配置后我在本地执行命令</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line"></span><br><span class="line">hexo g</span><br><span class="line"></span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure><p>结果发现图片没有正常显示</p><h3 id="如何解决？"><a href="#如何解决？" class="headerlink" title="如何解决？"></a>如何解决？</h3><p>网上查询的教程试了很多次，都没有作用，最终查询到的解决<a href="https://blog.csdn.net/s_alted/article/details/138582550?spm=1001.2101.3001.6650.3&utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~Ctr-3-138582550-blog-127737904.235%5Ev43%5Epc_blog_bottom_relevance_base8&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~Ctr-3-138582550-blog-127737904.235%5Ev43%5Epc_blog_bottom_relevance_base8&utm_relevant_index=6">方法</a></p><p>既然 <code>hexo-asset-image</code> 不管用，那就换一个插件，<strong>我们使用 <code>hexo-asset-img</code></strong></p><p>首先卸载掉 <code>hexo-asset-image</code> </p><blockquote><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm uninstall hexo-asset-image</span><br></pre></td></tr></table></figure></blockquote><p>然后安装新插件：</p><blockquote><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-asset-img --save</span><br></pre></td></tr></table></figure></blockquote><p>根据里面的 README 内容，把图片路径改成：(这样可以直接访问)</p><blockquote><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![alt text](hexo博客中插入图片的方法/posts.png)</span><br></pre></td></tr></table></figure></blockquote><p>或者</p><blockquote><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![alt text](posts.png)</span><br></pre></td></tr></table></figure></blockquote><p>然后执行下面的命令在本地验证一下：</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line"></span><br><span class="line">hexo g</span><br><span class="line"></span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure><p>发现图片正常显示：</p><img src="/2024/08/14/hexo%E6%8F%92%E5%85%A5%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87%E6%97%B6%E9%81%87%E5%88%B0%E7%9A%84%E5%9D%91/image.png" class="" title="alt text"><p>我们从 README 里面还了解到：<strong>大概是从 <code>Hexo 5</code> 开始， <code>hexo-asset-image</code> 已经失效, 并且此仓库已 <code>archived </code>。</strong></p><p>这也就是一开始使用 <code>hexo-asset-image</code> 插件导致图片路径没能转换成功的原因。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 图片 </tag>
+            
+            <tag> hexo </tag>
+            
+            <tag> bug </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>hexo博客中插入图片的方法</title>
       <link href="/2024/08/12/hexo%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E7%9A%84%E6%96%B9%E6%B3%95/"/>
       <url>/2024/08/12/hexo%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E7%9A%84%E6%96%B9%E6%B3%95/</url>
       
         <content type="html"><![CDATA[<h2 id="插入图片的方法"><a href="#插入图片的方法" class="headerlink" title="插入图片的方法"></a>插入图片的方法</h2><p>当我们创建了hexo博客、发布了文章后，我们可能会想在文章中插入图片，那么如何插入图片呢？</p><h3 id="如果是把图片保存在本地的话就使用一下两种方法"><a href="#如果是把图片保存在本地的话就使用一下两种方法" class="headerlink" title="如果是把图片保存在本地的话就使用一下两种方法"></a>如果是把图片保存在本地的话就使用一下两种方法</h3><h4 id="方法一-全部资源文件夹"><a href="#方法一-全部资源文件夹" class="headerlink" title="方法一:全部资源文件夹"></a>方法一:全部资源文件夹</h4><p>将文章所有的资源统一用一个文件夹进行管理。<br>该方法的<strong>优点</strong>是比较<strong>简单方便</strong>，并且出现多篇文章需要引用同一个资源时，比较方便。<br><strong>缺点</strong>是，如果图片和文章过多的时候，各个文章的图片都在同一个文件夹内，<strong>不方便管理</strong></p><p><strong>具体方法</strong><br>在hexo项目文件夹下的source目录下，新建一个文件夹叫images，将图片放入images文件夹中，然后在文章中引用图片时，使用相对路径引用图片，例如：</p><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">![<span class="string">图片描述</span>](<span class="link">images/图片名称.jpg</span>)</span><br></pre></td></tr></table></figure><p><strong>效果：</strong><br><img src="https://pic1.zhimg.com/80/v2-e4ffb142ad927696cca00e88e1bf53fa_1440w.webp" alt="山水"><br>(侵权删除)</p><h4 id="方法二-文章资源文件夹"><a href="#方法二-文章资源文件夹" class="headerlink" title="方法二:文章资源文件夹"></a>方法二:文章资源文件夹</h4><p>对每一篇文章，都使用一个文件夹进行管理。<br>该方法的<strong>优点</strong>是文章或者图片很多的时候，<strong>便于管理</strong>。<br><strong>缺点</strong>是对比方法一要<strong>麻烦一些</strong>。</p><p><strong>具体方法</strong></p><ul><li><p>修改hexo项目文件夹中的_config.yml文件，如下图：<br><img src="/2024/08/12/hexo%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E7%9A%84%E6%96%B9%E6%B3%95/config.png" alt="alt text"></p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">post_asset_folder: true</span><br><span class="line">marked:</span><br><span class="line">  prependRoot: true</span><br><span class="line">  postAsset: true</span><br></pre></td></tr></table></figure></li><li><p>在终端cd打开到hexo项目文件夹，然后输入hexo new “文章名称”，创建文章，在source&#x2F;_posts文件夹下会自动生成一个文件夹和.md文件。如下图：</p><img src="/2024/08/12/hexo%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E7%9A%84%E6%96%B9%E6%B3%95/posts.png" class="" title="alt text"><p>可以看到，同时还生成了一个同名的资源文件夹。</p></li><li><p>我们可以将所有与该文章有关的资源（包括图片）放在这个关联文件夹中</p></li><li><p>通过相对路径来引用图片资源。<br>例如，将“1.jpeg”这个图片资源放在该文件夹中，并在.md文件中像这样引用图片</p> <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![图片](1.jpeg)</span><br></pre></td></tr></table></figure></li></ul><h3 id="如果图片是网络链接"><a href="#如果图片是网络链接" class="headerlink" title="如果图片是网络链接"></a>如果图片是网络链接</h3><p>添加图片，可以在md文档中通过引用，图片title可以省略。<br> <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![图片](图片链接地址 &quot;图片title&quot;)</span><br></pre></td></tr></table></figure></p>]]></content>
       
+      
+      <categories>
+          
+          <category> hexo </category>
+          
+      </categories>
       
       
         <tags>
