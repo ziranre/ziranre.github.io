@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-08-14T11:00:12.527Z</updated>
+  <updated>2024-08-14T11:02:29.135Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://example.com/2024/08/14/%E5%A7%94%E5%A4%96%E8%AE%A2%E5%8D%95%E6%B5%81%E7%A8%8B/"/>
     <id>http://example.com/2024/08/14/%E5%A7%94%E5%A4%96%E8%AE%A2%E5%8D%95%E6%B5%81%E7%A8%8B/</id>
     <published>2024-08-14T10:58:13.000Z</published>
-    <updated>2024-08-14T11:00:12.527Z</updated>
+    <updated>2024-08-14T11:02:29.135Z</updated>
     
     <content type="html"><![CDATA[<h1 id="委外到入库流程"><a href="#委外到入库流程" class="headerlink" title="委外到入库流程"></a>委外到入库流程</h1><h3 id="金蝶ERP创建委外订单"><a href="#金蝶ERP创建委外订单" class="headerlink" title="金蝶ERP创建委外订单"></a>金蝶ERP创建委外订单</h3><ul><li>输入物料编码、计划时间、数量等数据，提交审核</li><li>同步生成委外用料清单</li><li><strong>选中物料后</strong>手动下推<strong>采购订单</strong>和<strong>委外领料单</strong></li><li><strong>注：不用手动下推收料通知单</strong></li></ul><h3 id="金蝶ERP委外领料单"><a href="#金蝶ERP委外领料单" class="headerlink" title="金蝶ERP委外领料单"></a>金蝶ERP委外领料单</h3><ul><li>进行提交审核</li><li>确认库存量是否足够</li></ul><h3 id="金蝶ERP采购订单"><a href="#金蝶ERP采购订单" class="headerlink" title="金蝶ERP采购订单"></a>金蝶ERP采购订单</h3><ul><li>进行提交审核</li><li><strong>注：不用手动下推收料通知单</strong></li></ul><h3 id="MES仓库管理–供应商管理–供应商生成物料条码"><a href="#MES仓库管理–供应商管理–供应商生成物料条码" class="headerlink" title="MES仓库管理–供应商管理–供应商生成物料条码"></a>MES仓库管理–供应商管理–供应商生成物料条码</h3><ul><li>选择采购单号，输入数量进行物料唯一码打印</li><li>切换物料编码进行多次打印</li></ul><h3 id="MES仓库管理–供应商管理–生成送货单"><a href="#MES仓库管理–供应商管理–生成送货单" class="headerlink" title="MES仓库管理–供应商管理–生成送货单"></a>MES仓库管理–供应商管理–生成送货单</h3><ul><li>选择采购订单，以此扫描打印的物料唯一码</li><li><strong>如采购订单流程处</strong>：在报告文件上传处<strong>必须上传文件</strong>，文件格式为：<strong>采购单号-数字</strong>，如：LCD240800004-1.png **如果未上传IQC查询不到送货单</li></ul><h3 id="PDA仓库管理–仓库收料"><a href="#PDA仓库管理–仓库收料" class="headerlink" title="PDA仓库管理–仓库收料"></a>PDA仓库管理–仓库收料</h3><ul><li>扫描送货单选择单据后，扫描仓库下面的<strong>库位条码</strong>然后再扫描物料唯一条码</li><li>扫描完成后点击收料</li><li>提交后会在金蝶ERP<strong>自动创建收料通知单</strong></li></ul><h3 id="MES品质管理–检验报告管理–IQC来料检查"><a href="#MES品质管理–检验报告管理–IQC来料检查" class="headerlink" title="MES品质管理–检验报告管理–IQC来料检查"></a>MES品质管理–检验报告管理–IQC来料检查</h3><ul><li>扫描采购订单后勾选物料进行IQC接收，接收后进行来料检验</li><li>检验合格后审核提交</li></ul><h3 id="PDA仓库管理–物料入库"><a href="#PDA仓库管理–物料入库" class="headerlink" title="PDA仓库管理–物料入库"></a>PDA仓库管理–物料入库</h3><ul><li>扫描仓库下面的库位条码，然后再扫描物料唯一条码</li><li>完成后点击物料条码入库</li></ul><h3 id="入库完成后可以在金蝶即时库存查看库存"><a href="#入库完成后可以在金蝶即时库存查看库存" class="headerlink" title="入库完成后可以在金蝶即时库存查看库存"></a>入库完成后可以在金蝶<em><strong>即时库存</strong></em>查看库存</h3><ul><li>筛选入库的物料编码查询选择库的仓库，点击库存量查看详细</li><li><img src="399f8e439fb7926ee916a8c8aab1203d.png" alt="截图" style="zoom:50%;" /></li><li>能查询到入库数量就属于MES推送ERP完成</li></ul><h3 id="流程图"><a href="#流程图" class="headerlink" title="流程图"></a>流程图</h3><p><img src="/2024/08/14/%E5%A7%94%E5%A4%96%E8%AE%A2%E5%8D%95%E6%B5%81%E7%A8%8B/baedd24d55d20844b980052f41acd074.png" alt="截图"></p>]]></content>
     
